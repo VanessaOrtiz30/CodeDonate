@@ -64,8 +64,9 @@ a{
     width: 905px;   
     margin: 0 auto;
     position: absolute;
+    text-align: center;
     top: 340px;
-    left: 590px;
+    left: 200px;
     font-size: 40px;
     border: 1px solid red;
     padding: 0;
@@ -84,4 +85,74 @@ a{
     text-align:center;
     font-style: italic;
     
+}
+.aboutInfo{
+    text-align: center;
+
+}
+p{
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    color: white;
+    
+}
+
+/* the gallery stuff*/
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    margin-left: 1px;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear1{
+    clear: both;
+    width: 700px;
+    margin-top: 11px;
+    /*margin: 0 auto;   */
+    margin-left: 75px;
 }
