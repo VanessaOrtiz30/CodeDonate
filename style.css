@@ -1,0 +1,87 @@
+body{
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*   ####################### Header #######################   */
+#nav-bar{
+    position: fixed;
+    display: block;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+#logo-img{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.links{
+    float: right;             /* Move all the way to the right*/
+    position: relative;
+    right: 50px;              /*Shift left some*/
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.link{
+    float: left;
+    padding: 5px;
+    margin: 15px 5px 0px 5px;
+    font-size: 25px;
+    font-family: georgia;
+    /* border: 1px solid black; */
+}
+a:hover{
+    color: pink;
+    font-size: 30px;
+}
+a{
+    transition: font-size 0.3s;
+    transition: color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+/*image background for homepage*/
+
+.indexBody
+{
+    background-image: url(images/homeless.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.heroPage
+{   
+    width: 905px;   
+    margin: 0 auto;
+    position: absolute;
+    top: 340px;
+    left: 590px;
+    font-size: 40px;
+    border: 1px solid red;
+    padding: 0;
+    height: auto;
+    font-family: helvetica, georgia;
+    
+}
+
+.subHeading
+{
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+    font-size: 15px;
+    margin: 0;
+    text-align:center;
+    font-style: italic;
+    
+}
