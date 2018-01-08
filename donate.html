@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>Code Donate</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="indexBody">
+
+        <header>
+            <div id="nav-bar">
+                <a href="index.html"><img src="./images/CodeDonateLogo.png" id="logo-img"/></a>
+                <div class="links">
+                    <h3 class="link"> <a href="about.html"> About </a> </h3>
+                    <h3 class="link"> <a href="gallery.html"> Gallery </a> </h3>
+                    <h3 class="link"> <a href="donate.html"> Donate </a> </h3>
+                </div>
+            </div>
+        </header>
+
+        <h3>Contact Form</h3>
+        <p class="clear11">Conact us here to donate! Anything is appreciated and taken into consideration. Thank you for helping the community.</p>
+        <section class="container">
+          <form name="sup" action="javascript:illEvalu()">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="Email" placeholder="Your Email..">
+
+            <label for="country">Donate</label>
+            <select id="country" name="country">
+              <option value="Food">Food</option>
+              <option value="Clothes">Clothes</option>
+              <option value="Money">Money</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" onclick="invalidInput()"> <!--I tried to do this***onclick="invalidInput();IfSubClicked()"*** more than one function but tht didnt work-->
+            <!--value= "button title"-->
+          </form>
+        </section>
+
+
+        <footer>
+            <div class="about-contact">
+                <div class="contact" id="email">Email</div>
+                <div class="contact" id="facebook">Facebook</div>
+                <div class="contact" id="insta" >Instagram</div>
+                <div class="contact" id="oovoo">OoVoO</div>
+                <div class="contact" id="aim">AIM</div>
+                <div class="contact" id="twitter">Twitter</div>
+            </div>
+        </footer>
+    </body>
+
+</html>
