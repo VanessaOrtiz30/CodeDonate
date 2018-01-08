@@ -16,6 +16,7 @@ body{
     border-bottom: 1px solid black;
     z-index: 1;
     /* border: 1px solid black; */
+    top: 0px;
 }
 
 #logo-img{
@@ -68,12 +69,12 @@ a{
     position: absolute;
     text-align: center;
     top: 340px;
-    left: 200px;
+    left: 500px;
     font-size: 40px;
-    border: 1px solid red;
+
     padding: 0;
     height: auto;
-    font-family: helvetica, georgia;
+    font-family:impact, helvetica, georgia;
 
 }
 
@@ -284,4 +285,80 @@ div.desc {
 
 .contact#twitter:hover{
     color: #2be8f2;
+}
+
+
+
+/* ##########################################################3*/
+.fix{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+}
+.clear{
+    clear: both;
+    width: 700px;
+    margin-top: 100px;
+    /*margin: 0 auto;   */
+    margin-left: 350px;
+}
+
+.Homeimg{
+    border-radius: 45%;
+    width: 20%;
+    height: auto;
+}
+section{
+    text-align: center;
+}
+.clear11{
+    clear: both;
+    width: 700px;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+ul{
+    margin-top: 0px;
+    margin-left: 40px;
+}
+li{
+   text-align: initial;
+}
+h2{
+    text-align: center;
+}
+/*for form*/
+.container {
+    border-radius: 0.313em;
+    background-color: #f2f2f2;
+    padding: 1.250em;
+    margin-left: 15.625em;
+    margin-right: 15.625em;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.750em;
+    border: 0.063em solid #ccc;
+    border-radius: 0.250em;
+    box-sizing: border-box;
+    margin-top: 0.375em;
+    margin-bottom: 1.000em;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.750em 1.250em;
+    border: none;
+    border-radius: 0.250em;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {/*hovers over the submit button*/
+    background-color: #45a049;
+}
+label{
+    float: left;
 }
