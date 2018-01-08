@@ -16,6 +16,7 @@ body{
     border-bottom: 1px solid black;
     z-index: 1;
     /* border: 1px solid black; */
+    top: 0px;
 }
 
 #logo-img{
@@ -68,13 +69,18 @@ a{
     position: absolute;
     text-align: center;
     top: 340px;
-    left: 200px;
+    left: 500px;
     font-size: 40px;
-    border: 1px solid red;
+    
     padding: 0;
     height: auto;
+<<<<<<< HEAD
     font-family: helvetica, georgia;
 
+=======
+    font-family:impact, helvetica, georgia;
+    
+>>>>>>> 00e3b13650e49fa457a008a5560e80895eb16770
 }
 
 .subHeading
